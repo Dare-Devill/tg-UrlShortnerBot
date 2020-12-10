@@ -4,8 +4,8 @@ const bot = new TeleBot(config.botToken);
 
 const start = (msg) => {
 	const replyMarkup = bot.inlineKeyboard([
-		[bot.inlineButton('Source Code', { url: 'https://github.com/icodelifee/tg-UrlShortnerBot' })],
-		[bot.inlineButton('Support Chat', { url: 'https://t.me/itorrentsupport' })],
+		[bot.inlineButton('Developer', { url: 'https://telegram.me/Pratham_vai' })],
+		[bot.inlineButton('Support Chat', { url: 'https://t.me/TheSecretHacker' })],
 	]);
 	bot.sendMessage(
 		msg.chat.id,
